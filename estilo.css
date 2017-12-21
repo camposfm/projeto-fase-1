@@ -435,7 +435,7 @@ footer a{
     .principal header{
         width: 100%
     }
-    #video img{
+    #video img, .imagemsombra, .sombra{
         display: none
     }
     #video .video2{
@@ -453,7 +453,7 @@ footer a{
         margin-top: 40px
     }
     
-    .principal .videoinferior h2{
+    .principal .videoinferior .fraseh{
         margin-left: 0
     }
     .principal .videoinferior h3{
