@@ -448,10 +448,11 @@ footer a{
 @media (max-width: 1024px){
     body{
         margin: 0;
-        padding: 0
+        padding: 0px 0px
     }
     .principal{
         width: 100%;
+        margin: auto;
         
       
         
@@ -459,6 +460,7 @@ footer a{
     
     .principal header{
         width: 100%;
+        margin: auto;
         
     }
     #video img, .imagemsombra, .sombra{
@@ -469,33 +471,43 @@ footer a{
     }
     .principal .videoinferior{
         display: block;
-        text-align: left;
+        text-align:;
         margin-top: 100px;
-        padding: 10px
+       
     }
     
     .videoinferior img{
-        width: 100%;
+        width: 90%;
+        margin: auto;
         padding-left: 0px;
         margin-top: 40px
     }
+    .principal .videoinferior{
+        margin-top: 150px;
+    }
     
     .principal .videoinferior .fraseh{
-        margin-left: 0
+        width: 90%;
+        margin: auto;
+        
     }
     .principal .videoinferior h3{
         
         font-size: 30px;
         margin: 0;
         padding: 0;
-        width: 100%;
+        width: 90%;
+        margin: auto;
         margin-top: 30px
     }
     .experiencia{
+        width: 50%;
+        margin: auto;
        text-align: center;
         padding: 0;
-        margin: 0;
-        
+        margin-top: 60px;
+        margin-bottom: -30px;
+       
         
         
     }
@@ -505,12 +517,18 @@ footer a{
     }
     .experiencia ul{
         text-align: center;
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        margin-top: 10px;
+        
         
     }
     .experiencia li{
         margin: 0px;
         border: 1px solid #d9dce0;
-        padding: 5px
+        padding: 5px;
+        width: 100%
 
     }
     .experiencia img{
@@ -524,22 +542,27 @@ footer a{
         flex-direction: column;
     }
     .detalhesesquerda{
-        width: 100%;
-        padding-right: 0px;
+        width: 90%;
+        margin: auto
+        
     }
     .detalhesesquerda img{
-        width: 100%;
+        width: 90%;
+        margin: auto
+        
+        
     }
     .angela{
-        margin: 0;
+        margin:auto;
         padding: 0;
         display: flex;
         justify-content:center;
-        width:100%;
+        width:90%;
     
     }
     .angela h3{
         width: 100%;
+        margin: auto;
         padding: 0;
         text-align: center;
         font-size: 32px
@@ -552,6 +575,7 @@ footer a{
     
     .detalhesdireita{
         width: 100%;
+        margin: auto;
         margin: 0;
         padding: 0;
         
@@ -570,10 +594,10 @@ footer a{
         margin-left:0px
     }
     #menssagem{
-        width: 100%;
+        width: 90%;margin:auto;
         margin-top:0px;
         text-align: center;
-        padding: 0px 10px;
+        
         
     }
     
@@ -584,6 +608,8 @@ footer a{
         justify-content: center;
         margin: 0;
         padding: 0px 0px;
+        width: 100%;
+        margin: auto
         
         
     }
@@ -614,7 +640,9 @@ footer a{
     
     
 }
-
+    table{
+        padding-bottom: 20px
+    }
 
 table th{
     padding-bottom: 10px;
@@ -630,12 +658,20 @@ table td{
     font-weight: 400;
 }   
     
-    footer{
-        padding: 0px;
-        width: 100%
+    footer li{
+        display: none
+        
+        
     }   
     
-    
+    footer{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px
+    }
+    footer img{
+        padding-bottom: 20px
+    }
 }
 
 
