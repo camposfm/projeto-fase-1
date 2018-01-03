@@ -113,13 +113,13 @@ header .logo{
 
 
 .principal .foto1{
-   width:100%
+   width:98%
     
 }
 .principal #video .foto2{
     margin-top: -70px;
     opacity: 0.70;
-    width: 100%
+    width: 98%
     
     
 }
@@ -463,6 +463,10 @@ footer a{
         margin: auto;
         
     }
+    .principal header h1, h3{
+        padding: 0px 10px
+    }
+    
     #video img, .imagemsombra, .sombra{
         display: none
     }
